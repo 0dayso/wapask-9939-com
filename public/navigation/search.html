@@ -1,0 +1,22 @@
+<form method="get" action="http://sousuo.9939.com/cse/search">   
+  <input type="hidden" value="10607545072525536054" name="s"> 
+  <input type="hidden" value="1" name="entry"> 
+  <input type="text" placeholder="请描述疾病或症状..."  name="q" autocomplete="off" style="width: 75%;">
+  <input type="submit" value="搜索" style="width: 24%;"> 
+</form>
+
+
+<script type="text/javascript">
+	(function() {
+		document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));
+		var bdcs = document.createElement('script');
+		bdcs.type = 'text/javascript';
+		bdcs.async = true;
+		bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=10607545072525536054'
+				+ '&plate_url='
+				+ encodeURIComponent(window.location.href)
+				+ '&t=' + Math.ceil(new Date() / 3600000);
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(bdcs, s);
+	})();
+</script>

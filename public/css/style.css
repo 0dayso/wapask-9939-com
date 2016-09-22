@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;} 
+html{ font-size:300%;}
+@media screen and (width: 414px){html{ font-size:305%;}}
+body{-webkit-text-size-adjust:100%;font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif; color:#333;}
+article， aside， details， figcaption， figure， footer， header， hgroup， menu， nav， section { display: block; }
+a{ text-decoration: none; display:inline-block; color:#333;-webkit-tap-highlight-color:transparent;}
+img{ border:none;}
+<!--a,img{-webkit-touch-callout:none}  -->
+
+     
+span{display:inline-block;} 
+ul{ list-style:none; overflow:hidden;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }.clearfix{zoom:1;}
+header{ background:#00b489 url(../images/baike.png) no-repeat center center; background-size:1.7rem 0.62rem; height:0.93rem; text-align:center; position:relative; border-bottom:1px solid #e5e5e5;}
+header a{ height:0.85rem; width:0.6rem;}
+header a:first-child{  background:url(../images/logo.png) no-repeat center center;background-size:100%; position:absolute; left:0.19rem; top:0; width:0.65rem;}
+header a:last-child{  background:url(../images/thr.png) no-repeat center center; background-size:90%; position:absolute; right:0.19rem; top:0;}
+/*头部导航*/
+.heabar{ position:absolute; left:0; top:0.85rem; background:#434445; z-index:1000; font-size:0.3rem; width:100%;}
+.heabar a{ color:#fff;}
+.shona,.info{ overflow:hidden;}
+.shona a{ float:left; width:21%; margin:0.38rem 2% 0.45rem 2%; text-indent:0.58rem; height:0.56rem; line-height:0.56rem; border-radius:12px;}
+.shona a:first-child{ background:#287160 url(../images/hel_01.png) no-repeat 0.2rem center; background-size:0.3rem 0.32rem;}
+.shona a:nth-child(2){ background:#287160 url(../images/hel_02.png) no-repeat 0.2rem center; background-size:0.33rem 0.32rem;}
+.shona a:nth-child(3){ background:#287160 url(../images/hel_03.png) no-repeat 0.2rem center; background-size:0.33rem 0.32rem;}
+.shona a:last-child{ background:#287160 url(../images/hel_04.png) no-repeat 0.2rem center; background-size:0.33rem 0.32rem;}
+.heabar h3{ width:95%; margin:0 auto 0.33rem auto; text-align:center; border-bottom:1px solid #5a5a5a; border-top:1px solid #2d2e30; font-size:0.28rem; color:#767778; letter-spacing:1px; position:relative;}
+.heabar h3 span{ position:absolute; top:-0.2rem; background:#434445; width:0.9rem; left:50%; margin-left:-.48rem;}
+.info{ width:95%; margin:0 auto;}
+.info a{ float:left; width:20%; text-align:center; margin-bottom:0.34rem; font-size:0.3rem;}
+.login{ text-align:center; margin-bottom:0.35rem;}
+.login a{ font-size:0.3rem; color:#d5d5d5; background:#5e5e5e; padding:0.1rem 0.53rem; margin:0 2.5%; border-radius:2px; letter-spacing:1px;}
+.heabar:after{ content:""; position:absolute; right:0.28rem; top:-11px;border-color:transparent transparent #434445 transparent; border-width:6px; border-style:solid; width:0; height:0; line-height:0; z-index:500;}
+nav{ padding-top:0.4rem;}
+nav a{ width:25%; box-sizing:border-box;  text-align:center;}
+nav a span{ border:1px solid #49c066; width:1.08rem; height:1.08rem; border-radius:100%; margin-bottom:-0.1rem;}
+nav a:first-child span{ background:url(../images/fi_01.png) no-repeat center center; background-size:55% 55%;}
+nav a:nth-child(2) span{ background:url(../images/fi_02.png) no-repeat center center; background-size:65% 55%;}
+nav a:nth-child(3) span{ background:url(../images/fi_03.png) no-repeat center center; background-size:55% 55%;}
+nav a:last-child span{ background:url(../images/fi_04.png) no-repeat center center; background-size:55% 55%;}
+nav a p{ font-size:0.31rem; color:#555; font-family:"microsoft YaHei";}
+.frmly{ width:92%; margin:0.2rem auto 0.35rem auto; border:1px solid #dfdfdf; border-radius:80px; height:0.7rem; overflow:hidden; background:url(../images/ser.png) no-repeat 95% center; background-size:0.44rem 0.44rem; overflow:hidden;}
+.frmly input[type="search"]{ font-family:"microsoft YaHei";letter-spacing:1px; float:left; width:80%; border:none; height:0.6rem; line-height:0.6rem; margin:0.06rem 0 0 0.5rem;font-size:0.31rem; box-sizing:border-box;}
+.frmly input[type="submit"]{ float:left; background:none; width:11%; bordeR:none;height:0.6rem; line-height:0.6rem; margin-top:.06rem;}
+.thre{ background:#f4f4f4; height:0.19rem; border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; z-index:200;}
+h2{ font-family:"microsoft YaHei"; border-bottom:1px solid #1cbc96; height:0.82rem; line-height:0.82rem; padding:0 0.22rem; font-size:0.34rem; color:#1cbc96; letter-spacing:0.5px; font-weight:normal; overflow:hidden; z-index:200;}
+h2 a{ float:right; color:#777; font-size:0.28rem;}
+
+.shay{ display:block;}
+.disn{ display:none;}
+.breas{ border-bottom:1px solid #eaeaea; overflow:hidden; font-size:.32rem; height:.68rem; line-height:.7rem; padding-left:.59rem; background:#f4f5f6 url(../images/grlo.png) no-repeat .15rem center; background-size:.39rem .39rem;}
+.breas a,.breas span{ float:left; margin:0 .05rem;}
+.heabar span.arrow{width:100%;height:.45rem; background:#fff url(../images/ar_01.png) no-repeat center center; background-size:1.3rem 100%; margin:0 auto; display:block;}
+.asdc a:first-child span{ background:#1cbc96 url(../images/hel_01.png) no-repeat center center; background-size:55% 55%;}
+.asdc a:nth-child(2) span{ background:#1cbc96 url(../images/hel_02.png) no-repeat center center; background-size:55% 55%;}
+.asdc a:nth-child(3) span{ background:#1cbc96 url(../images/hel_03.png) no-repeat center center; background-size:55% 55%;}
+.asdc a:last-child span{ background:#1cbc96 url(../images/hel_04.png) no-repeat center center; background-size:55% 55%;}
+.prot p{ overflow:hidden; margin:0.1rem 0;}
+.prot p a{ float:left; width:25%; text-align:center; color:#999; font-size:0.32rem;}
+.flay{ margin:0.35rem auto 0.35rem auto;}
+footer{ padding-bottom:0.3rem;}
+footer div{ background:#f4f5f6; height:0.74rem; line-height:0.74rem; overflow:hidden; padding:0 0.5rem; margin-bottom:0.3rem;}
+footer div a{ float:left; width:25%; text-align:center; font-size:0.32rem; color:#666;}
+footer p{ text-align:center; font-size:0.3rem; color:#999; margin-top:0.15rem;}
+footer p a{ margin:0 .1rem;}
+a.retop{ position:fixed; right:.3rem; bottom:.3rem; background:#000 url(../images/retop.png) no-repeat center center; display:block; border-radius:100%; background-size:55% 30%; opacity:.6; width:.75rem; height:.75rem; z-index:999;}
+.head{ height:0.9rem; background:#00b489; text-align:center; font-size:0.36rem; color:#fff; line-height:0.9rem; position:relative;}
+.head span{height:0.87rem;line-height:0.87rem;}
+.head a{height:0.87rem; width:0.22rem; display:block;}
+.head a:first-child{  background:url(../images/lefa.png) no-repeat center center; background-size:100%; position:absolute; left:0.19rem; top:0;}
+.head a:last-child{  background:url(../images/thr.png) no-repeat center center; background-size:100% 0.31rem; position:absolute; right:0.19rem; top:0; width:0.4rem;}
+.head a.setn{background:url(../images/tser.png) no-repeat center center; background-size:100% 0.34rem; position:absolute; right:0.9rem; top:0; width:0.34rem;}
+.role{ margin:.35rem 0 .28rem 0; overflow:hidden;}
+.role h1{ font-size:.38rem; height:.5rem; line-height:.5rem;}
+.role h1,.repro a{ white-space:nowrap;text-overflow:ellipsis; overflow:hidden;}
+.role h1 span{ float:left; width:.45rem; margin-right:.14rem; height:.5rem; line-height:.5rem; background:#00b489 url(../images/ques.png) no-repeat 40% center; background-size:40% 50%; border-top-right-radius:12px; border-bottom-right-radius:12px;}
+.role p{ font-size:.32rem; color:#999; margin:.15rem 0 0 .64rem;}
+.descrip,.expert{ width:95%; margin:0 auto; font-size:.32rem;}
+.descrip p{ line-height:.58rem; margin-bottom:.25rem;}
+.descrip p span{ color:#999;}
+.bana{ height:2.3rem;}
+.bana img{ width:100%; height:2.3rem;}
+.expert{ margin:.3rem auto; overflow:hidden; position:relative;}
+.expert img{ float:left; width:.9rem; height:.9rem; margin-right:.12rem;}
+.expert h3{ font-size:.34rem; margin-bottom:.1rem;}
+.expert p{ font-size:.3rem; color:#999;}
+.expert a.ask{ display:block; position:absolute; right:0; top:.1rem; font-size:.3rem; color:#fd8b03; border:1px solid #fd8b03; border-radius:4px; text-align:center; padding:.05rem .12rem;}
+.reply p:last-child span{ display:block;}
+a.dirask{ display:block; color:#00b489; border:1px solid #00b489; border-radius:6px; font-size:.32rem; width:48%; margin:0 auto .35rem auto; text-align:center; height:.7rem; line-height:.7rem}
+.repro{ width:95%; margin:.1rem auto; font-size:.32rem;}
+.repro a{ display:block; height:.8rem; line-height:.8rem; padding-left:.2rem; position:relative;}
+.repro a:after{ content:""; position:absolute; left:0; top:.37rem; background:#00b489; width:3px; height:3px;}
+.shorin{ width:95%; font-size:.32rem; margin:.35rem auto .15rem auto; overflow:hidden;}
+.shorin a{ float:left; height:.63rem; line-height:.63rem; padding:0 .2rem; text-align:center; background:#f5fdfb; border:1px solid #b5e8dc; border-radius:4px; margin:0 .2rem .2rem 0}
+.shorin a:hover{ background:#1cbc96; border:1px solid #1cbc96; color:#Fff;}
+.adn img{ width:100%;}
+
+@media screen and (max-width: 320px){.shona a{margin:0.38rem 1% 0.45rem 1%; width:22%;} .heabar{ font-size:.3rem;}.shona a{text-indent:.5rem;}}
+.role h1 b{ float:right; margin-right:.2rem; font-size:.28rem; color:#999; font-weight:normal;}
+.role h1 b em{ font-style:normal; color:#fd8b03;}
+.seback{ background:#f8f8f8; padding:.25rem 0 .1rem 0; border-top:1px solid #e2e2e2; border-bottom:1px solid #e2e2e2; margin-bottom:.35rem;}
+.adda{ margin-bottom:.3rem;}
+.threa{ border-top:1px solid #e2e2e2;}
+a.myans{ margin:.6rem auto 1rem auto;}
+.bocon{ width:95%; margin:0 auto;}
+.bocon p{ font-size:.32rem; margin:.32rem 0; line-height:.55rem;}
+.usern{ padding:.2rem; overflow:hidden; background:url(../images/grebg.jpg) no-repeat center center; background-size:100% 100%;}
+.usern .usim{ float:left; width:1.6rem; height:1.6rem;border:2px solid #fff; border-radius:100%; margin-right:.2rem;}
+.usern .usim img{ width:100%; border-radius:100%;}
+.usern p{ font-size:.36rem; height:1.6rem; line-height:1.6rem;color:#fff; letter-spacing:.01rem;}
+.step{ width:95%; margin:0 auto; font-size:.32rem;}
+.step li{ display:block; overflow:hidden; border-bottom:1px solid #e5e5e5; height:1rem; line-height:1rem; background:url(../images/arr.png) no-repeat right center; background-size:.18rem .3rem;}
+.step li a{ display:block; padding-left:.7rem;}
+.step a span{ float:right; color:#fe8a01; font-size:.3rem; margin:.02rem .35rem 0 0; display:block;}
+.step li:nth-child(1) a{ background:url(../images/ask_01.png) no-repeat .15rem center; background-size:.38rem .34rem;}
+.step li:nth-child(2) a{ background:url(../images/ask_02.png) no-repeat .15rem center; background-size:.36rem .36rem;}
+.step li:nth-child(3) a{ background:url(../images/ask_03.png) no-repeat .15rem center; background-size:.38rem .36rem;}
+.step li:nth-child(4) a{ background:url(../images/ask_04.png) no-repeat .15rem center; background-size:.38rem .36rem;}
+.step li:nth-child(5) a{ background:url(../images/ask_05.png) no-repeat .15rem center; background-size:.38rem .34rem;}
+.step li:nth-child(6) a{ background:url(../images/ask_06.png) no-repeat .15rem center; background-size:.38rem .36rem;}
+.step li:nth-child(7) a{ background:url(../images/ask_07.png) no-repeat .15rem center; background-size:.38rem .36rem;}
+.step li:nth-child(8) a{ background:url(../images/ask_08.png) no-repeat .15rem center; background-size:.33rem .36rem;}
+.step li:nth-child(9) a{ background:url(../images/ask_09.png) no-repeat .15rem center; background-size:.38rem .36rem;}
+.hans li:nth-child(2) a{ background:url(../images/ask_10.png) no-repeat .15rem center; background-size:.38rem .34rem;}
+.respons h3{ font-weight:normal; font-size:.32rem; line-height:.55rem; width:95%;}
+.respons a{ padding:.25rem .2rem; display:block; border-bottom:1px solid #e1e1e1; background:url(../images/arr.png) no-repeat 98.5% center; background-size:.22rem .34rem;}
+.respons a p{color:#ccc; font-size:.28rem; margin-top:.05rem;}
+.respons h3 span{font-size:.26rem; color:#00b489; border:1px solid #00b489; line-height:.37rem; border-radius:4px; padding:0 .1rem; margin-left:.1rem;}
+.patran{ font-size:.32rem; text-align:center; margin:.3rem 0 .5rem 0;}
+.patran span{ padding:0 .6rem; color:#ccc;}
+.patran a{ color:#666;}
+.patran span b{ font-weight:normal; color:#ff5a00;}
+.norep h3 span{color:#fec480; border:1px solid #fec480;}
+p.fit{ text-align:center; padding:.35rem 0; font-size:.3rem; color:#666; border-bottom:1px solid #e1e1e1; letter-spacing:.01rem;}
+p.fit span{color:#f80;}
+.usinf{ width:1.5rem; height:1.5rem; margin:.5rem auto;}
+.usinf div{width:1.5rem; height:1.5rem; border:1px solid #e4e4e4; border-radius:100%; padding:.02rem;}
+.usinf div img{ width:100%; border-radius:100%;}
+.otcoun{width:100%; background:#fff; margin:1.3rem 0 .2rem 0; position:relative;}
+.othel{  width:90%; margin:0 auto; border-top:1px solid #e5e5e5; z-index:500;}
+.othel h3{color:#c3c3c3; font-size:.32rem; font-weight:normal; position:absolute; left:50%; margin-left:-1.1rem; top:-11px; width:2.2rem; text-align:center; background:#fff; letter-spacing:1px;}
+.othel div{ overflow:hidden;}
+.othel div a{ width:33%; float:left; text-align:center; margin:.4rem 0;}
+.othel div a img{ width:40%;}
+.formst,.imus{ width:90%; margin:0 auto;}
+.formst input{ display:block; width:100%; border:none; border-bottom:1px solid #e2e2e2; height:.5rem; line-height:.5rem; font-size:.32rem; font-family:"microsoft YaHei";  z-index:100; padding:.3rem 0 .3rem 0;}
+.formst input[type="text"]{ background:url(../images/lob_01.png) no-repeat .03rem center; background-size:.4rem .42rem;}
+.formst input[type="password"]{ background:url(../images/lob_02.png) no-repeat .05rem center; background-size:.36rem .42rem;}
+.formst input[type="submit"].subs{ background:#00b489; border-radius:6px; margin:.6rem 0 .3rem 0; padding:0; color:#fff; height:.8rem; line-height:.8rem; font-size:.34rem; border:none; text-indent:0;-webkit-appearance: none;}
+.logi input#username,.logi input#password{ padding-left:.6rem;}
+.formst .caba input#password{ padding-left:0;}
+
+
+p.forget{ font-size:.32rem; overflow:hidden;}
+p.forget a:first-child{ float:left;}
+p.forget a:last-child{ float:right; }
+p.forget a.regis{color:#00b489; margin-right:.05rem;}
+.suinf input{ text-indent:0;}
+.suinf input[type="text"]{ background:none;}
+.indis{ position:relative; z-index:100; overflow:hidden;}
+.indis a{ display:none;position:absolute; right:0; top:.38rem; width:.38rem; height:.38rem; background:url(../images/err.png) no-repeat center center; background-size:100% 100%; z-index:400;}
+p.tips{ background:#f8f8f8; padding:.2rem; border-bottom:1px solid #e2e2e2; font-size:.32rem; overflow:hidden;}
+p.tips span{color:#f80;}
+p.tips a{ float:right; width:.42rem; height:.42rem; background:url(../images/ero.png) no-repeat; background-size:100% 100%;}
+.tede{ width:100%;}
+.terea{ background:#f9f9f9; width:100%; margin:0 auto; border:none; border-top:1px solid #e2e2e2; border-bottom:1px solid #e2e2e2; height:5rem; position:relative;}
+.terea textarea{ border:none; background:#f9f9f9; width:100%; height:88%; display:block; font-size:.32rem; padding:.2rem; line-height:.48rem; box-sizing:border-box; color:#333; font-family:"microsoft YaHei";}
+.terea p{ position:absolute; right:.2rem; bottom:.1rem; color:#b1b1b1; font-size:.32rem;}
+.terea p span{color:#00b489;}
+.choic{ overflow:hidden;}
+.choic li{ float:left; font-size:.32rem; height:.8rem; line-height:.8rem; width:33%; text-align:center; border-right:1px solid #e2e2e2; border-bottom:1px solid #e2e2e2; box-sizing:border-box; color:#666;}
+.choic li:last-child{ border-right:none; background:url(../images/doar.png) no-repeat 75% center; background-size:.35rem .2rem;}
+.choic li.curs{ background:#eafbf7; color:#00b489;}
+.imus input[type="text"]{background:url(../images/cell.png) no-repeat .03rem center; background-size:.28rem .45rem; text-indent:.4rem; }
+.imus .check{ position:relative;}
+.imus .check  input[type="text"]{ background:none; text-indent:0;}
+.imus .check p,.imus .check a{ position:absolute;font-size:.32rem;}
+.imus .check p{right:1rem; top:.19rem; background:#e2e2e2; padding:.05rem .2rem;}
+.imus .check a{ right:0; top:.32rem; color:#b1b1b1;}
+.detai{ border-top:none;}
+.exinf a:first-child{ background:url(../images/logo.png) no-repeat center center; background-size:100%; width:0.52rem; height:.85rem;}
+.exinf a:last-child{ background:url(../images/relog.png) no-repeat center center; background-size:100%;}
+.fipro{ font-size:.34rem;}
+.fipro div{ text-align:center; width:90%; margin:0 auto .8rem auto; border-bottom:1px solid #dfdfdf; padding:2.3rem 0 1.3rem 0; background:url(../images/ans.png) no-repeat center 1.3rem; background-size:.8rem .8rem;}
+.fipro p{ color:#666;}
+.fipro p.remem{color:#c0c0c0; font-size:.3rem; line-height:.5rem; margin-top:.3rem;}
+.fipro a{ display:block; margin:.5rem auto; border:1px solid #00b489; color:#00b489; width:71%; border-radius:6px; padding:.15rem 0; text-indent:26%;}
+.fipro a.ha_01{ background:url(../images/we_01.png) no-repeat 29% center; background-size:.38rem .38rem;}
+.fipro a.ha_02{ background:url(../images/we_02.png) no-repeat 29% center; background-size:.37rem .37rem; position:relative;}
+.fipro a.ha_02 span{ text-indent:0; display:block; position:absolute; right:-.2rem; top:-.2rem; background:#fe8a01; border-radius:100%; color:#fff; text-align:center; width:.43rem; height:.43rem; line-height:.43rem; font-size:.26rem;}
+.reseco a:first-child{  background:url(../images/lefa.png) no-repeat center center; background-size:100%; position:absolute; left:0.19rem; top:0; height:.85rem; width:.22rem;}
+.lolay{ overflow:hidden; font-size:.32rem; text-align:center; padding-bottom:.5rem;}
+.lolay a{ background:#f8f8f8; border:1px solid #ccc; border-radius:4px; padding:0 .5rem; height:.64rem; line-height:.64rem; margin:0 .5rem; color:#999;}
+.foot{ width:100%; position:fixed; left:0; bottom:0;}
+.succe{ text-align:center; font-size:.36rem; padding:1rem 0; color:#fe8a01; background:url(../images/ans_01.png) no-repeat 34% center; background-size:.6rem .6rem;}
+.hainfo{ margin-bottom:.3rem;}
+.hainfo p{ font-size:.32rem; width:95%; margin:0 auto .2rem auto; color:#c0c0c0;}
+.hainfo p span{color:#666;}
+.hainfo p span.sp_01{ margin-right:.5rem;}
+.hainfo p a{ float:right; color:#00b489; font-size:.3rem;}
+.funct li{ overflow:hidden;}
+.funct li span{ float:right; height:.8rem; line-height:.8rem; color:#999; font-size:.3rem;}
+h2.frea{ overflow:hidden; border-bottom:none;}
+h2.frea a{ float:right; color:#fd8b03; border:1px solid #fd8b03; height:.5rem; line-height:.5rem; padding:0 .15rem; border-radius:3px; margin-top:.2rem;}
+.checo{ position:relative;}
+.checo a{ position:absolute; right:0; top:.2rem; font-size:.3rem; color:#f80; display:block; height:.7rem; line-height:.7rem; border-left:1px solid #e2e2e2; padding-left:.35rem;}
+.messa{ position:fixed; left:50%; top:30%; margin:0 auto; width:80%; margin-left:-40%; height:.7rem; line-height:.7rem; text-align:center; z-index:500;)}
+.messa a{font-size:15px; background:#000; color:#fff; border-radius:22px; padding:0 15px;background:rgba(0, 0, 0, 0.5);}
+
+.formst .caba input{ background:none;}
+.sepass{ text-align:center; padding:.6rem 0; font-size:.34rem; color:#666; background:url(../images/ans.png) no-repeat 25% center; background-size:.55rem .55rem; border-bottom:1px solid #e2e2e2;}
+.sepass p{ text-indent:.9rem; height:1rem; line-height:1rem;}
+.formst .bacan input{ background:none; text-indent:0;}
+.agree{ font-size:.32rem; color:#666; text-align:center; overflow:hidden; width:73%; margin:.5rem auto 0 auto;}
+.agree div{ width:.26rem; height:.26rem;overflow:hidden; margin:0 .2rem 0 0; float:left;  border:1px solid #e2e2e2;}
+.agree div.cusm{ background:url(../images/corr.png) no-repeat center center; background-size:70% 70%;}
+.agree a{color:#00b489;}
+.agree span{ float:left; height:.32rem; line-height:.32rem;}
+.person{ padding:.6rem 0 .6rem 36%; border-bottom:1px solid #e2e2e2; background:url(../images/pers.png) no-repeat left center; background-size:3.8rem 100%;}
+.person h3{ font-size:.34rem; font-weight:normal; margin-bottom:.1rem; color:#00b489;}
+.person p{ font-size:.3rem; color:#999;}
+@media screen and (max-width: 320px){.succe{background:url(../images/ans.png) no-repeat 32% center;background-size:.5rem .5rem;} .hainfo p a{ float:none; margin:.1rem 0 0 0; display:block;}.sepass{background:url(../images/ans.png) no-repeat 20% center; background-size:.5rem .5rem;}.person{background:url(../images/pers.png) no-repeat left center; background-size:3.2rem 100%; padding:.4rem 0 .4rem 36%;}.otcoun{ margin:1rem 0 .2rem 0;}.agree{ width:77%;}}
+@media screen and (width: 414px){.succe{background:url(../images/ans.png) no-repeat 35% center;background-size:.64rem .64rem;}.sepass{background:url(../images/ans.png) no-repeat 26% center; background-size:.58rem .58rem;}.otcoun{ margin:2rem 0 .2rem 0;}.agree{ width:68%;}}
+.outl{ position:fixed; left:0; top:0; width:100%; height:100%; background:#000; opacity:.6; z-index:500;}
+.confirm{ background:#fff; position:fixed; left:0; bottom:0; width:100%; z-index:600}
+.confirm p{ height:.8rem; line-height:.8rem; font-size:.32rem; background:#f8f8f8; padding:0 .2rem; overflow:hidden;}
+.confirm p a:first-child{color:#999;}
+.confirm p a:last-child{color:#666; float:right;}
+.confirm div a{ display:block; height:.78rem; line-height:.78rem; text-align:center; font-size:.32rem; color:#999;}
+.confirm div a.curr{ border-top:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc; color:#333;}
+.disn{ display:none;}
+.shay{ display:block;}
+.analy{ width:100%; margin:0 auto .35rem auto; padding:.25rem 2.5% .1rem 2.5%; box-sizing:border-box;}
+p.fimoi{ text-align:center; font-size:.3rem;color:#c0c0c0; margin-bottom:.7rem;}
+p.fimoi a{color:#00b489; margin-left:.3rem;}
+.subm{padding:.3rem 0; margin-top:.7rem;}
+p.userna a{ background:url(../images/cha_01.png) no-repeat left center; background-size:.3rem .3rem; padding-left:.36rem;}
+p.bind a{ background:url(../images/cha_02.png) no-repeat left center; background-size:.2rem .3rem; padding-left:.3rem;}
+.chau{ position:fixed; z-index:1000; background:#fff; left:5%; width:90%; top:30%; border-radius:10px;}
+.chau p{ font-size:.32rem; background:#f8f8f8; height:.82rem; line-height:.82rem; color:#00b489; font-family:"microsoft Yahei"; padding-left:.2rem; border-top-left-radius:10px; border-top-right-radius:10px;}
+.formst input[type="submit"].conf{ background:none; color:#666; margin:.1rem 0;}
+.clos{ position:absolute; right:-8px; top:-8px; background:url(../images/clos.png) no-repeat; background-size:100% 100%; width:.6rem; height:.6rem;}
+.role em{ padding:0 .3rem;}
+.choic li.age{ overflow:hidden;}
+.formst input.tct{ float:left; background:none; padding:.17rem 0; width:50%;}
+.formst li.age span{ float:left; width:40%; text-align:left;}
+.formst .capab input[type="password"]{ background:none;}

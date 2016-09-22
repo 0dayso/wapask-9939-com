@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.main_v{position:relative;}
+.main_i{overflow:hidden; height:85px; margin:15px 0;}
+.main_i ul{width:100%;overflow:hidden;}
+.main_i li{float:left;width:100%;}
+.main_i li img,.rodes dd img{ width:100%; height:85px;}
+.pretot{ position:absolute; top:-45px; right:4%;overflow:hidden;}
+.pretot a{ float:left;}
+div.flicking_c{z-index:999;float:left;}
+div.flicking_c a{width:10px;height:10px;margin:0;padding:0;background:#bdc5cb;text-indent:-1000px; margin:2px 5px 0 0; border-radius:100%;}
+div.flicking_c a.on{ background:#33c3a1;}
+#btn_p,#btn_n{float:left;z-index:11111;display:block;width:10px;height:14px;}
+#btn_p{ background:url(../images/jia.png) no-repeat left top; margin-right:8px; background-size:cover;}
+#btn_n{background:url(../images/jia.png) no-repeat right top; margin-left:3px; background-size:cover;}
+.rodes{ overflow:hidden;}
+.rodes dd{ float:left; width:45%; margin:0 2%; position:relative;}
+.rodes dd a{ position:absolute; left:0; top:59px; display:block; width:80%; padding:0 10%; height:26px; line-height:26px; background:#000; opacity:.5; text-align:center;white-space:nowrap; text-overflow:ellipsis; overflow:hidden; font-family:"microsoft YaHei";color:#fff; font-size:16px;}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.bdsharebuttonbox{width:360px;}
+.bdsharebuttonbox b{ float:left; display:inline; margin-top:10px;}
+dd.cfx a{ margin-right:0.3em;}
+#sha_a{ background:none; width:0; height:0;}
+#sh_01{ background:url(../temps/a_x.jpg) no-repeat; width:1.5em; height:1.5em; background-size:100% 100%;}
+#sh_02{ background:url(../temps/a_w.jpg) no-repeat; width:1.5em; height:1.5em; background-size:100% 100%;}
+#sh_03{ background:url(../temps/a_wx.jpg) no-repeat; width:1.5em; height:1.5em; background-size:100% 100%;}
+#sh_04{ background:url(../temps/a_z.jpg) no-repeat; width:1.5em; height:1.5em; background-size:100% 100%;}
+#sh_05{ background:url(../temps/a_s.jpg) no-repeat; width:1.5em; height:1.5em; background-size:100% 100%;}
